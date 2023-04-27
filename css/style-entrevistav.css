@@ -225,6 +225,11 @@ footer img:hover{
     background-color: #b9b8b8;
     margin-top: 25px;
     margin-bottom: 25px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    text-align:center;
+    border-radius: 10px;
 }
 
 .texto h2{
@@ -260,4 +265,17 @@ footer img:hover{
 
 .texto p{
     margin: 10px 10px 10px 10px;
+}
+
+.btnLeiaMais{
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgb(114, 37, 185);
+    padding: 10px;
+    border-radius: 7%;
+    transition: .5s;
+}
+
+.btnLeiaMais:hover{
+    opacity: 80%;
 }
